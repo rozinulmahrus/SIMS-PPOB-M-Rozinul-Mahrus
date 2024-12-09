@@ -3,7 +3,7 @@ import Button from "../../elements/Button/Button";
 import Textfield from "../../elements/Textfield/Textfield";
 import IconMaildottru from "../../icons/IconMaildotru"
 import IconLock from "../../icons/IconLock";
-import IconUser from "../../icons/iconUser";
+import IconUser from "../../icons/IconUser";
 
 const FormRegister = ({ handleRegister }) => {
 	return(
