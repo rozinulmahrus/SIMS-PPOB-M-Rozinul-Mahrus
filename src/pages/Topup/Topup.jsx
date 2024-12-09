@@ -46,7 +46,7 @@ const Topup = () => {
           <img src={IMAGES.LOGO} className="w-12 h-12 mb-2"/>
           <span>Beli listrik prabayar senilai</span>
           <span className="font-bold">{handleFormatCurrency("Rp " + handleFormatCurrency(dataPayload.top_up_amount))}</span>
-          <a onClick={() => handleConfirm()} className="font-semibold text-red-500 mt-4">Ya, Lanjutkan Bayar</a>
+          <a onClick={() => handleConfirm()} className="font-semibold text-red-500 mt-4 cursor-pointer">Ya, Lanjutkan Bayar</a>
           <a onClick={() => setIsOpen(false)} className="cursor-pointer font-semibold text-slate-400 mt-3">Batalkan</a>
         </div>
       </Modal>
