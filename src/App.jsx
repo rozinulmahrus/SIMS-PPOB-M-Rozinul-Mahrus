@@ -1,6 +1,3 @@
-// import Login from "./pages/Login/Login";
-// import Register from "./pages/Register/Register";
-// import Home from "./pages/Home/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Layout from "./components/layout";
 import Profile from "./pages/Profile/Profile";
@@ -14,9 +11,6 @@ import Transaction from "./pages/Transaction/Transaction";
 function App() {
   return (
     <>
-      {/* <div className="flex w-full justify-center gap-5 min-h-screen items-center border border-green-700">
-        <Register/>
-      </div>  */}
       <BrowserRouter>
         <Routes>
           <Route path="/register" element={<Register/>}/>
@@ -30,10 +24,6 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-      {/* <Layout> */}
-        {/* <Topup/> */}
-        {/* <TransactionHistory/>
-      </Layout> */}
     </>
   )
     
