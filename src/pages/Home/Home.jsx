@@ -31,7 +31,7 @@ const Home = () => {
       setDataService(data);
     });
   }, [])
-  // console.log(dataService.data.length)
+
   return(
     <>
       <div className="flex w-full mt-5 mb-8">
@@ -64,50 +64,6 @@ const Home = () => {
             )
           })
         }
-        {/* <a href="#" className="w-5 sm:w-8 md:w-12 lg:w-16">
-          <img src={IMAGES.ICON_LISTRIK} className="w-auto h-auto"/>
-          <p className="text-[5px] sm:text-[8px] md:text-[10px] lg:text-xs mt-2 text-slate-500">Listrik</p>
-        </a>
-        <a href="#" className="w-5 sm:w-8 md:w-12 lg:w-16">
-          <img src={IMAGES.ICON_PULSA} className="w-auto h-auto"/>
-          <p className="text-[5px] sm:text-[8px] md:text-[10px] lg:text-xs mt-2 text-slate-500">Pulsa</p>
-        </a>
-        <a href="#" className="w-5 sm:w-8 md:w-12 lg:w-16">
-          <img src={IMAGES.ICON_PDAM} className="w-auto h-auto"/>
-          <p className="text-[5px] sm:text-[8px] md:text-[10px] lg:text-xs mt-2 text-slate-500">PDAM</p>
-        </a>
-        <a href="#" className="w-5 sm:w-8 md:w-12 lg:w-16">
-          <img src={IMAGES.ICON_PGN} className="w-auto h-auto"/>
-          <p className="text-[5px] sm:text-[8px] md:text-[10px] lg:text-xs mt-2 text-slate-500">PGN</p>
-        </a>
-        <a href="#" className="w-5 sm:w-8 md:w-12 lg:w-16">
-          <img src={IMAGES.ICON_TELEVISI} className="w-auto h-auto"/>
-          <p className="text-[5px] sm:text-[8px] md:text-[10px] lg:text-xs mt-2 text-slate-500">TV Langganan</p>
-        </a>
-        <a href="#" className="w-5 sm:w-8 md:w-12 lg:w-16">
-          <img src={IMAGES.ICON_MUSIK} className="w-auto h-auto"/>
-          <p className="text-[5px] sm:text-[8px] md:text-[10px] lg:text-xs mt-2 text-slate-500">Musik</p>
-        </a>
-        <a href="#" className="w-5 sm:w-8 md:w-12 lg:w-16">
-          <img src={IMAGES.ICON_GAME} className="w-auto h-auto"/>
-          <p className="text-[5px] sm:text-[8px] md:text-[10px] lg:text-xs mt-2 text-slate-500">Voucher Game</p>
-        </a>
-        <a href="#" className="w-5 sm:w-8 md:w-12 lg:w-16">
-          <img src={IMAGES.ICON_VOUCHER_MAKANAN} className="w-auto h-auto"/>
-          <p className="text-[5px] sm:text-[8px] md:text-[10px] lg:text-xs mt-2 text-slate-500">Voucher Makanan</p>
-        </a>
-        <a href="#" className="w-5 sm:w-8 md:w-12 lg:w-16">
-          <img src={IMAGES.ICON_KURBAN} className="w-auto h-auto"/>
-          <p className="text-[5px] sm:text-[8px] md:text-[10px] lg:text-xs mt-2 text-slate-500">Kurban</p>
-        </a>
-        <a href="#" className="w-5 sm:w-8 md:w-12 lg:w-16">
-          <img src={IMAGES.ICON_ZAKAT} className="w-auto h-auto"/>
-          <p className="text-[5px] sm:text-[8px] md:text-[10px] lg:text-xs mt-2 text-slate-500">Zakat</p>
-        </a>
-        <a href="#" className="w-5 sm:w-8 md:w-12 lg:w-16">
-          <img src={IMAGES.ICON_PAKET_DATA} className="w-auto h-auto"/>
-          <p className="text-[5px] sm:text-[8px] md:text-[10px] lg:text-xs mt-2 text-slate-500">Paket Data</p>
-        </a> */}
       </div>
       <div className="flex flex-col w-full gap-5" > 
         <p className="font-bold text-sm">Temukan Promo Menarik</p>
@@ -121,18 +77,6 @@ const Home = () => {
               )
             })
           }
-          {/* <a href="#" className="min-w-[12rem] md:min-w-[20rem] lg:min-w-[28rem]">
-            <img src={Banner1} className="w-full"/>
-          </a>
-          <a href="#" className="min-w-[12rem] md:min-w-[20rem] lg:min-w-[28rem]">
-            <img src={Banner1} className="w-full"/>
-          </a>
-          <a href="#" className="min-w-[12rem] md:min-w-[20rem] lg:min-w-[28rem]">
-            <img src={Banner1} className="w-full"/>
-          </a>
-          <a href="#" className="min-w-[12rem] md:min-w-[20rem] lg:min-w-[28rem]">
-            <img src={Banner1} className="w-full"/>
-          </a> */}
         </div>
       </div>
     </>
