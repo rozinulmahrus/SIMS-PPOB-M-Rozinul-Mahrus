@@ -1,5 +1,6 @@
 {
   "name": "sims-ppob-muhammad-rozinul-mahrus",
+  "homepage": "https://rozinulmahrus.github.io/SIMS-PPOB-M-Rozinul-Mahrus",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "axios": "^1.7.9",
