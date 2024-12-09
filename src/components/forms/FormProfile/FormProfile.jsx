@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Textfield from "../../elements/Textfield/Textfield"
 import Button from "../../elements/Button/Button"
 import IconMaildotru from "../../icons/IconMaildotru"
-import IconUser from "../../icons/iconUser"
+import IconUser from "../../icons/IconUser"
 
 const FormProfile = ({ logout, defaultParams, params, setParams, handleUpdateProfile }) => {
   const [edit, setEdit] = useState(false);
